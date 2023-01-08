@@ -71,15 +71,15 @@ a:hover {
 
 ul {
     list-style-position: outside;
-    text-align: center;
+    text-align: left;
 }
 
 ol {
     list-style-position: outside;
-    text-align: center;
+    text-align: left;
 }
 .container {
-  text-align: center;
+  text-align: left;
 }
 
 .ul {
