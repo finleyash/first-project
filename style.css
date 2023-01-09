@@ -6,6 +6,8 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   background-color: #eae2b7;
+  max-width: 600px;
+  margin: auto;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -15,6 +17,10 @@ h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
   
+}
+
+a {
+  padding: 20px;
 }
 
 article {
@@ -29,7 +35,7 @@ article div {
 p {
   line-height: 1.5;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -76,7 +82,7 @@ ul {
 
 ol {
     list-style-position: outside;
-    text-align: left;
+    text-align: center;
 }
 .container {
   text-align: left;
@@ -91,11 +97,7 @@ ol {
   display: inline-block;
   text-align: left;
 }
-footer {
-  text-align: center;
-}
   
-
 /* Add your solution below */
   
 .image-circle {
@@ -104,4 +106,15 @@ footer {
   padding: 0px;
 }
   
+.hi {
+  text-align: center;
+  padding-bottom: 20px;
+}
 
+.artist {
+  padding-top: 20px;
+}
+
+.copyright {
+  text-align: center;
+}
